@@ -1,0 +1,3 @@
+s = input("Enter English sentence: ")
+# Метод title() идеально подходит, но можно и через split/capitalize
+print(f"Result: {s.title()}")
