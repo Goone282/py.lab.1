@@ -1,0 +1,7 @@
+text = input("Введите текст: ").lower()
+words = text.split() # Разбиение строки по разделителю (пробелу) [cite: 11]
+count = 0
+for word in words:
+    if word.startswith('е'):
+        count += 1
+print(f"Количество слов на 'е': {count}")
